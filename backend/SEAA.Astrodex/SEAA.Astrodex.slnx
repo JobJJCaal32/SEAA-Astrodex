@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../../frontend/SEAA.Astrodex.UI/SEAA.Astrodex.UI.csproj" />
+  <Project Path="SEAA.Astrodex.API/SEAA.Astrodex.API.csproj" />
+  <Project Path="SEAA.Astrodex.Core/SEAA.Astrodex.Core.csproj" />
+  <Project Path="SEAA.Astrodex.Data/SEAA.Astrodex.Data.csproj" />
+</Solution>

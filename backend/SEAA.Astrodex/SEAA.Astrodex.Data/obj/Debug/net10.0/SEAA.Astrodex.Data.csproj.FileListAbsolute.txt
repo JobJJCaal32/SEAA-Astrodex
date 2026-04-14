@@ -1,0 +1,16 @@
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\bin\Debug\net10.0\SEAA.Astrodex.Data.deps.json
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\bin\Debug\net10.0\SEAA.Astrodex.Data.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\bin\Debug\net10.0\SEAA.Astrodex.Data.pdb
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\bin\Debug\net10.0\SEAA.Astrodex.Core.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\bin\Debug\net10.0\SEAA.Astrodex.Core.pdb
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.csproj.AssemblyReference.cache
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.AssemblyInfoInputs.cache
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.AssemblyInfo.cs
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.csproj.CoreCompileInputs.cache
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.sourcelink.json
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Ast.2C688F4F.Up2Date
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\refint\SEAA.Astrodex.Data.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\SEAA.Astrodex.Data.pdb
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Data\obj\Debug\net10.0\ref\SEAA.Astrodex.Data.dll
