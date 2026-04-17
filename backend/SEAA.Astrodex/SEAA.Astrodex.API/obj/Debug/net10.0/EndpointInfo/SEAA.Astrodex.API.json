@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Planets": {
+      "get": {
+        "tags": [
+          "Planets"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -73,6 +85,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Planets"
+    },
     {
       "name": "WeatherForecast"
     }

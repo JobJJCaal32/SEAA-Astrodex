@@ -3,4 +3,5 @@
   <Project Path="SEAA.Astrodex.API/SEAA.Astrodex.API.csproj" />
   <Project Path="SEAA.Astrodex.Core/SEAA.Astrodex.Core.csproj" />
   <Project Path="SEAA.Astrodex.Data/SEAA.Astrodex.Data.csproj" />
+  <Project Path="SEAA.Astrodex.Infrastructure/SEAA.Astrodex.Infrastructure.csproj" Id="3d6a30ee-0067-4be9-b767-60737e4b5cf8" />
 </Solution>

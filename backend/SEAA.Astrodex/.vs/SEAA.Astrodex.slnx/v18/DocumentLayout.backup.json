@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|g:\\2026\\proyectosprogra2025\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|g:\\2026\\proyectosprogra2025\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,17 +29,33 @@
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Program.cs",
               "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Program.cs",
-              "ToolTip": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Program.cs*",
-              "RelativeToolTip": "SEAA.Astrodex.API\\Program.cs*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ToolTip": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Program.cs",
+              "RelativeToolTip": "SEAA.Astrodex.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T06:50:41.732Z",
+              "WhenOpened": "2026-04-17T04:35:14.7Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlanetsController.cs",
+              "DocumentMoniker": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "ToolTip": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "RelativeToolTip": "SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T04:35:08.401Z"
             }
           ]
         }

@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using SEAA.Astrodex.Infrastructure.External;
 
 namespace SEAA.Astrodex.API.Controllers
 {

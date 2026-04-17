@@ -1,0 +1,16 @@
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Infrastructure.deps.json
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Infrastructure.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Infrastructure.pdb
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Core.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Core.pdb
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.csproj.AssemblyReference.cache
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.AssemblyInfoInputs.cache
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.AssemblyInfo.cs
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.csproj.CoreCompileInputs.cache
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.sourcelink.json
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Ast.170A1090.Up2Date
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\refint\SEAA.Astrodex.Infrastructure.dll
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.pdb
+G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\ref\SEAA.Astrodex.Infrastructure.dll

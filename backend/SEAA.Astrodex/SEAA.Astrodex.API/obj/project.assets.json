@@ -1163,6 +1163,19 @@
         "runtime": {
           "bin/placeholder/SEAA.Astrodex.Data.dll": {}
         }
+      },
+      "SEAA.Astrodex.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "SEAA.Astrodex.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SEAA.Astrodex.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SEAA.Astrodex.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -3589,6 +3602,11 @@
       "type": "project",
       "path": "../SEAA.Astrodex.Data/SEAA.Astrodex.Data.csproj",
       "msbuildProject": "../SEAA.Astrodex.Data/SEAA.Astrodex.Data.csproj"
+    },
+    "SEAA.Astrodex.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../SEAA.Astrodex.Infrastructure/SEAA.Astrodex.Infrastructure.csproj",
+      "msbuildProject": "../SEAA.Astrodex.Infrastructure/SEAA.Astrodex.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3599,6 +3617,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.5",
       "SEAA.Astrodex.Core >= 1.0.0",
       "SEAA.Astrodex.Data >= 1.0.0",
+      "SEAA.Astrodex.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 10.1.7"
     ]
   },
@@ -3639,6 +3658,9 @@
             },
             "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj": {
               "projectPath": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj"
+            },
+            "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj": {
+              "projectPath": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj"
             }
           }
         }

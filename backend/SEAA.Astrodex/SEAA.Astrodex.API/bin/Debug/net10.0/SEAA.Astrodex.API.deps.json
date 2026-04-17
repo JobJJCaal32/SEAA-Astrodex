@@ -14,6 +14,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "10.0.5",
           "SEAA.Astrodex.Core": "1.0.0",
           "SEAA.Astrodex.Data": "1.0.0",
+          "SEAA.Astrodex.Infrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "10.1.7"
         },
         "runtime": {
@@ -830,6 +831,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "SEAA.Astrodex.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SEAA.Astrodex.Core": "1.0.0"
+        },
+        "runtime": {
+          "SEAA.Astrodex.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1195,6 +1207,11 @@
       "sha512": ""
     },
     "SEAA.Astrodex.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEAA.Astrodex.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

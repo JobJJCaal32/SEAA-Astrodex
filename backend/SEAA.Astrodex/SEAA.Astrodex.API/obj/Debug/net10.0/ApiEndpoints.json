@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.PlanetsController",
+    "Method": "Get",
+    "RelativePath": "api/Planets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SEAA.Astrodex.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
