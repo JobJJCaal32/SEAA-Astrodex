@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {}
+    "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {}
   },
   "projects": {
-    "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {
+    "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
+        "projectUniqueName": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
         "projectName": "SEAA.Astrodex.UI",
-        "projectPath": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
-        "packagesPath": "C:\\Users\\dlux2\\.nuget\\packages\\",
-        "outputPath": "G:\\2026\\ProyectosProgra2025\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\obj\\",
+        "projectPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
+        "packagesPath": "C:\\Users\\jjjjp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dlux2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjjjp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

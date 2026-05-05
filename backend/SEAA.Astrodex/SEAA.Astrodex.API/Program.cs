@@ -19,7 +19,7 @@ builder.Services.AddHttpClient<SolarSystemApiService>(client =>
     client.DefaultRequestHeaders.Authorization =
         new System.Net.Http.Headers.AuthenticationHeaderValue(
             "Bearer",
-            ""
+            "e0df2949-d0ae-45d3-8f3d-2f0a39149033"
         );
 });
 

@@ -14,3 +14,19 @@ G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.In
 G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\refint\SEAA.Astrodex.Infrastructure.dll
 G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.pdb
 G:\2026\ProyectosProgra2025\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\ref\SEAA.Astrodex.Infrastructure.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Infrastructure.deps.json
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Infrastructure.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Infrastructure.pdb
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Core.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\bin\Debug\net10.0\SEAA.Astrodex.Core.pdb
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.AssemblyInfo.cs
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.sourcelink.json
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Ast.170A1090.Up2Date
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\refint\SEAA.Astrodex.Infrastructure.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\SEAA.Astrodex.Infrastructure.pdb
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Infrastructure\obj\Debug\net10.0\ref\SEAA.Astrodex.Infrastructure.dll
