@@ -18,7 +18,7 @@ namespace SEAA.Astrodex.API.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var data = await _service.GetPlanetsAsync();
+            var data = await _service.GetPlanetasAsync();
             return Ok(data);
         }
     }

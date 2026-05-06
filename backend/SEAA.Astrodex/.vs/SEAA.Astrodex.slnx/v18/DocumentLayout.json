@@ -1,28 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.data\\context\\astronomiacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|solutionrelative:seaa.astrodex.data\\context\\astronomiacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\entities\\historialconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\entities\\historialconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\entities\\relacionceleste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\entities\\relacionceleste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\entities\\lunaref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\entities\\lunaref.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\entities\\cuerpoceleste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\entities\\cuerpoceleste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,71 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AstronomiaContext.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Context\\AstronomiaContext.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Data\\Context\\AstronomiaContext.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Context\\AstronomiaContext.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Data\\Context\\AstronomiaContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T08:20:24.433Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HistorialConsulta.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\HistorialConsulta.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\Entities\\HistorialConsulta.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\HistorialConsulta.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Core\\Entities\\HistorialConsulta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T08:19:33.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RelacionCeleste.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\RelacionCeleste.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\Entities\\RelacionCeleste.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\RelacionCeleste.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Core\\Entities\\RelacionCeleste.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAUAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T08:19:09.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LunaRef.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\LunaRef.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\Entities\\LunaRef.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\LunaRef.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Core\\Entities\\LunaRef.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T08:18:54.008Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CuerpoCeleste.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\CuerpoCeleste.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\Entities\\CuerpoCeleste.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Entities\\CuerpoCeleste.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Core\\Entities\\CuerpoCeleste.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAiwAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-05T08:18:05.721Z",
-              "EditorCaption": ""
             }
           ]
         }

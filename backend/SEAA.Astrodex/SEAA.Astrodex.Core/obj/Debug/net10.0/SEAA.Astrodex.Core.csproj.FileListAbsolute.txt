@@ -22,3 +22,15 @@ C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 
 C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\refint\SEAA.Astrodex.Core.dll
 C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.pdb
 C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion 3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\ref\SEAA.Astrodex.Core.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\bin\Debug\net10.0\SEAA.Astrodex.Core.deps.json
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\bin\Debug\net10.0\SEAA.Astrodex.Core.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\bin\Debug\net10.0\SEAA.Astrodex.Core.pdb
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.AssemblyInfoInputs.cache
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.AssemblyInfo.cs
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.csproj.CoreCompileInputs.cache
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.sourcelink.json
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\refint\SEAA.Astrodex.Core.dll
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\SEAA.Astrodex.Core.pdb
+C:\Users\jjjjp\OneDrive\Escritorio\librosLL-20251205T023646Z-1-001\Programacion_3\SEAA-Astrodex\backend\SEAA.Astrodex\SEAA.Astrodex.Core\obj\Debug\net10.0\ref\SEAA.Astrodex.Core.dll

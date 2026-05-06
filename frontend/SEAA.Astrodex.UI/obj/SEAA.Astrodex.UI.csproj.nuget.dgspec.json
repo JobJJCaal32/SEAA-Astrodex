@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {}
+    "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {
+    "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
+        "projectUniqueName": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
         "projectName": "SEAA.Astrodex.UI",
-        "projectPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
+        "projectPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
         "packagesPath": "C:\\Users\\jjjjp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\obj\\",
+        "outputPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

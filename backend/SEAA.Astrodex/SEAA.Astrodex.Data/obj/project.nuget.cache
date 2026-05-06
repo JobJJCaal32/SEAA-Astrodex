@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GtdrMTlI/3k=",
+  "dgSpecHash": "nRc3Zq/6xc0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj",
+  "projectFilePath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jjjjp\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
     "C:\\Users\\jjjjp\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.7\\microsoft.entityframeworkcore.abstractions.10.0.7.nupkg.sha512",
