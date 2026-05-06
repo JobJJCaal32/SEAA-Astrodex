@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace SEAA.Astrodex.Data.Context
 {
-    internal class AstronomiaContext : DbContext
+    public class AstronomiaContext : DbContext
     {
         public AstronomiaContext(DbContextOptions<AstronomiaContext> options)
             : base(options) { }

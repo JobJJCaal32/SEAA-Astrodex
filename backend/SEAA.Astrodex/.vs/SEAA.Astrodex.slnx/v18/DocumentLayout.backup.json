@@ -1,34 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\",
+  "WorkspaceRootPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|solutionrelative:seaa.astrodex.data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\dtos\\planetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\dtos\\planetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion 3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.infrastructure\\external\\solarsystemapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion_3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.infrastructure\\external\\solarsystemapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|solutionrelative:seaa.astrodex.infrastructure\\external\\solarsystemapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion_3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\interfaces\\icuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\interfaces\\icuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|c:\\users\\jjjjp\\onedrive\\escritorio\\librosll-20251205t023646z-1-001\\programacion_3\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.api\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C87DFC7-3765-4129-C85F-2623C126762D}|SEAA.Astrodex.API\\SEAA.Astrodex.API.csproj|solutionrelative:seaa.astrodex.api\\controllers\\planetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,93 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "SEAA.Astrodex.API\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SolarSystemApiService.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAhwBcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:13:35.015Z",
+              "WhenOpened": "2026-05-06T02:53:52.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Class1.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Class1.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Data\\Class1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PlanetsController.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "RelativeToolTip": "SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:07:27.05Z",
+              "WhenOpened": "2026-05-06T02:53:44.705Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlanetsController.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
-              "RelativeToolTip": "SEAA.Astrodex.API\\Controllers\\PlanetsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Title": "ICuerpoCelesteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAywA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:05:45.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.API\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\WeatherForecast.cs",
-              "RelativeToolTip": "SEAA.Astrodex.API\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:04:16.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Program.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Program.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Program.cs",
-              "RelativeToolTip": "SEAA.Astrodex.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:03:54.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SolarSystemApiService.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:03:20.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlanetDto.cs",
-              "DocumentMoniker": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\DTOs\\PlanetDto.cs",
-              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\DTOs\\PlanetDto.cs",
-              "ToolTip": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\DTOs\\PlanetDto.cs",
-              "RelativeToolTip": "SEAA.Astrodex.Core\\DTOs\\PlanetDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T05:03:10.621Z",
+              "WhenOpened": "2026-05-06T02:35:18.942Z",
               "EditorCaption": ""
             }
           ]

@@ -5,6 +5,64 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/CuerposCelestes/cargar": {
+      "post": {
+        "tags": [
+          "CuerposCelestes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CuerposCelestes/{id}": {
+      "get": {
+        "tags": [
+          "CuerposCelestes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CuerposCelestes/memoria": {
+      "get": {
+        "tags": [
+          "CuerposCelestes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/CuerposCelestes/planetas": {
+      "get": {
+        "tags": [
+          "CuerposCelestes"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Planets": {
       "get": {
         "tags": [
@@ -85,6 +143,9 @@
     }
   },
   "tags": [
+    {
+      "name": "CuerposCelestes"
+    },
     {
       "name": "Planets"
     },

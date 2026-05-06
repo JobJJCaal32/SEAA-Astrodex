@@ -1,5 +1,51 @@
 [
   {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
+    "Method": "GetPorId",
+    "RelativePath": "api/CuerposCelestes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
+    "Method": "CargarDesdApi",
+    "RelativePath": "api/CuerposCelestes/cargar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
+    "Method": "GetEnMemoria",
+    "RelativePath": "api/CuerposCelestes/memoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
+    "Method": "GetPlanetas",
+    "RelativePath": "api/CuerposCelestes/planetas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SEAA.Astrodex.API.Controllers.PlanetsController",
     "Method": "Get",
     "RelativePath": "api/Planets",

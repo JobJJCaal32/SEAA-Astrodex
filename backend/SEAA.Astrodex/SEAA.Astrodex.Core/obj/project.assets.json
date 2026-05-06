@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj",
+      "projectUniqueName": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj",
       "projectName": "SEAA.Astrodex.Core",
-      "projectPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj",
+      "projectPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj",
       "packagesPath": "C:\\Users\\jjjjp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion 3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\obj\\",
+      "outputPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
