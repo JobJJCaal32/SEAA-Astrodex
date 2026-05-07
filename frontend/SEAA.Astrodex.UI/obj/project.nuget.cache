@@ -1,20 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e49u6B4hEJ8=",
+  "dgSpecHash": "QV9Ag+4J6ig=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
+  "projectFilePath": "G:\\2026\\Proyecto\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jjjjp\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.5\\microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512"
+    "C:\\Users\\dlux2\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.7\\microsoft.aspnetcore.app.internal.assets.10.0.7.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "message": "Error al obtener los datos de vulnerabilidad del paquete: No se puede cargar el índice de servicio del origen https://api.nuget.org/v3/index.json.",
-      "projectPath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\jjjjp\\OneDrive\\Escritorio\\librosLL-20251205T023646Z-1-001\\Programacion_3\\SEAA-Astrodex\\frontend\\SEAA.Astrodex.UI\\SEAA.Astrodex.UI.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }
