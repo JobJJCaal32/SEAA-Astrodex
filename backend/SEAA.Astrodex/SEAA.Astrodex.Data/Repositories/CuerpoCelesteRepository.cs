@@ -28,15 +28,15 @@ namespace SEAA.Astrodex.Data.Repositories
 
         // ─── Cache-Aside central ──────────────────────────────────
 
-        public async Task<CuerpoCeleste?> ObtenerCuerpoCelesteAsync(string id)
+        public async Task<CuerpoCeleste?> ObtenerCuerpoCelesteAsync(string idONombre)
         {
             // 1. Memoria
-            var enMemoria = BuscarEnMemoria(id);
+            var enMemoria = BuscarEnMemoria(idONombre);
             if (enMemoria != null)
                 return enMemoria;
 
             // 2. Base de datos
-            var enBd = await BuscarEnBaseDatosAsync(id);
+            var enBd = await BuscarEnBaseDatosAsync(idONombre);
             if (enBd != null)
             {
                 CargarEnMemoria(enBd);
@@ -44,7 +44,7 @@ namespace SEAA.Astrodex.Data.Repositories
             }
 
             // 3. API externa
-            var deApi = await BuscarEnApiAsync(id);
+            var deApi = await BuscarEnApiAsync(idONombre);
             if (deApi != null)
             {
                 await GuardarEnBaseDatosAsync(deApi);
@@ -57,24 +57,44 @@ namespace SEAA.Astrodex.Data.Repositories
 
         // ─── Métodos individuales ─────────────────────────────────
 
-        public CuerpoCeleste? BuscarEnMemoria(string id)
+        public CuerpoCeleste? BuscarEnMemoria(string idONombre)
         {
-            return _memoria.BuscarPorId(id);
+            // Primero busca por id (O(1) con Dictionary)
+            var porId = _memoria.BuscarPorId(idONombre);
+            if (porId != null)
+                return porId;
+
+            // Si no encuentra, busca por nombre flexible
+            return _memoria.BuscarPorNombre(idONombre);
         }
 
-        public async Task<CuerpoCeleste?> BuscarEnBaseDatosAsync(string id)
+        public async Task<CuerpoCeleste?> BuscarEnBaseDatosAsync(string idONombre)
         {
+            // Una sola consulta SQL con OR para los 3 campos
             return await _context.CuerposCelestes
-                .FirstOrDefaultAsync(c => c.Id == id);
+                .FirstOrDefaultAsync(c =>
+                    c.Id.ToLower() == idONombre.ToLower() ||
+                    c.NombreIngles.ToLower() == idONombre.ToLower() ||
+                    c.Nombre.ToLower() == idONombre.ToLower());
         }
 
-        public async Task<CuerpoCeleste?> BuscarEnApiAsync(string id)
+        public async Task<CuerpoCeleste?> BuscarEnApiAsync(string idONombre)
         {
-            var dto = await _apiService.GetCuerpoPorIdAsync(id);
-            if (dto == null)
-                return null;
+            // Primero intenta directamente por id
+            // (es la forma más rápida y eficiente)
+            var porId = await _apiService.GetCuerpoPorIdAsync(idONombre);
+            if (porId != null)
+                return CuerpoCelesteMapper.ToEntity(porId);
 
-            return CuerpoCelesteMapper.ToEntity(dto);
+            // Si no encuentra por id, usa el filtro de la API
+            // por nombre en inglés (case-insensitive)
+            var porNombre = await _apiService.GetCuerposPorFiltroAsync(
+                "englishName", "eq", idONombre);
+
+            if (porNombre.Any())
+                return CuerpoCelesteMapper.ToEntity(porNombre.First());
+
+            return null;
         }
 
         // ─── Persistencia ─────────────────────────────────────────

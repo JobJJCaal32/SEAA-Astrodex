@@ -28,6 +28,16 @@ namespace SEAA.Astrodex.Infrastructure.Structures
             _tablaHash.TryGetValue(id, out var cuerpo);
             return cuerpo;
         }
+        public CuerpoCeleste? BuscarPorNombre(string nombre)
+        {
+            return _listaEnlazada.FirstOrDefault(c =>
+                c.NombreIngles.Equals(nombre,
+                    StringComparison.OrdinalIgnoreCase) ||
+                c.Nombre.Equals(nombre,
+                    StringComparison.OrdinalIgnoreCase) ||
+                c.Id.Equals(nombre,
+                    StringComparison.OrdinalIgnoreCase));
+        }
 
         public List<CuerpoCeleste> ObtenerTodos()
         {

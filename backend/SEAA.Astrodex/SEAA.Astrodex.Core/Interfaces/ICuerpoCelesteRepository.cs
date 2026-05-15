@@ -10,12 +10,12 @@ namespace SEAA.Astrodex.Core.Interfaces
     public interface ICuerpoCelesteRepository
     {
         // Cache-Aside completo - método central
-        Task<CuerpoCeleste?> ObtenerCuerpoCelesteAsync(string id);
+        Task<CuerpoCeleste?> ObtenerCuerpoCelesteAsync(string idONombre);
 
         // Métodos individuales del Cache-Aside
-        CuerpoCeleste? BuscarEnMemoria(string id);
-        Task<CuerpoCeleste?> BuscarEnBaseDatosAsync(string id);
-        Task<CuerpoCeleste?> BuscarEnApiAsync(string id);
+        CuerpoCeleste? BuscarEnMemoria(string idONombre);
+        Task<CuerpoCeleste?> BuscarEnBaseDatosAsync(string idONombre);
+        Task<CuerpoCeleste?> BuscarEnApiAsync(string idONombre);
 
         // Persistencia
         Task GuardarEnBaseDatosAsync(CuerpoCeleste cuerpo);

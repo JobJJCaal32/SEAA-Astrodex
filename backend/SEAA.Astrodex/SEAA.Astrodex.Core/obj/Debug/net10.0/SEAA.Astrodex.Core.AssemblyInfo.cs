@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SEAA.Astrodex.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d6a4a5823f3cf3cc3fa0728c8b5ec2ea1773eb22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3057a054fcb1cbd99f697604b051416c4547c0c1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SEAA.Astrodex.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SEAA.Astrodex.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

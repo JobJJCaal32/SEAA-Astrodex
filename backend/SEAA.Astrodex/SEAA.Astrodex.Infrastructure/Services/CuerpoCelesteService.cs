@@ -26,18 +26,18 @@ namespace SEAA.Astrodex.Infrastructure.Services
 
         // Método privado reutilizable
         private async Task<(CuerpoCeleste? cuerpo, string fuente)>
-            ObtenerCuerpoConFuenteAsync(string id)
+            ObtenerCuerpoConFuenteAsync(string idONombre)
         {
             string fuente;
 
-            if (_repository.BuscarEnMemoria(id) != null)
+            if (_repository.BuscarEnMemoria(idONombre) != null)
                 fuente = "memoria";
-            else if (await _repository.BuscarEnBaseDatosAsync(id) != null)
+            else if (await _repository.BuscarEnBaseDatosAsync(idONombre) != null)
                 fuente = "base de datos";
             else
                 fuente = "api";
 
-            var cuerpo = await _repository.ObtenerCuerpoCelesteAsync(id);
+            var cuerpo = await _repository.ObtenerCuerpoCelesteAsync(idONombre);
 
             return (cuerpo, fuente);
         }

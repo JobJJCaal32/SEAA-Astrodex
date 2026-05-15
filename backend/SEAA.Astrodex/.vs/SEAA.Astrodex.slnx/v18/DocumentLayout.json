@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|c:\\users\\jjjjp\\source\\repos\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.infrastructure\\services\\cuerpocelesteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|solutionrelative:seaa.astrodex.infrastructure\\services\\cuerpocelesteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|c:\\users\\jjjjp\\source\\repos\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.data\\repositories\\cuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|solutionrelative:seaa.astrodex.data\\repositories\\cuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|c:\\users\\jjjjp\\source\\repos\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.core\\interfaces\\icuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0496A51F-F4EB-39E8-7944-8BE765287D9D}|SEAA.Astrodex.Core\\SEAA.Astrodex.Core.csproj|solutionrelative:seaa.astrodex.core\\interfaces\\icuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|c:\\users\\jjjjp\\source\\repos\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.infrastructure\\structures\\memoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|solutionrelative:seaa.astrodex.infrastructure\\structures\\memoriaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,6 +51,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CuerpoCelesteService.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAArwCcAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:14:06.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CuerpoCelesteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:13:08.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICuerpoCelesteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Core\\Interfaces\\ICuerpoCelesteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:12:29.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemoriaService.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\structures\\MemoriaService.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Infrastructure\\structures\\MemoriaService.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\structures\\MemoriaService.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Infrastructure\\structures\\MemoriaService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T22:11:49.976Z",
+              "EditorCaption": ""
             }
           ]
         }
