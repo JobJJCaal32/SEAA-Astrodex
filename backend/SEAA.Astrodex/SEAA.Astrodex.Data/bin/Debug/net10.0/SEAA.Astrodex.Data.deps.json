@@ -9,7 +9,8 @@
       "SEAA.Astrodex.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.7",
-          "SEAA.Astrodex.Core": "1.0.0"
+          "SEAA.Astrodex.Core": "1.0.0",
+          "SEAA.Astrodex.Infrastructure": "1.0.0"
         },
         "runtime": {
           "SEAA.Astrodex.Data.dll": {}
@@ -132,6 +133,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "SEAA.Astrodex.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SEAA.Astrodex.Core": "1.0.0"
+        },
+        "runtime": {
+          "SEAA.Astrodex.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -212,6 +224,11 @@
       "hashPath": "microsoft.extensions.primitives.10.0.7.nupkg.sha512"
     },
     "SEAA.Astrodex.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SEAA.Astrodex.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

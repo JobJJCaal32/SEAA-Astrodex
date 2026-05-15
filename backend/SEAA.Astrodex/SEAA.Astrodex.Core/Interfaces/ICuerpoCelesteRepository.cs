@@ -2,15 +2,26 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+// Core/Interfaces/ICuerpoCelesteRepository.cs
+using SEAA.Astrodex.Core.Entities;
+
 namespace SEAA.Astrodex.Core.Interfaces
 {
     public interface ICuerpoCelesteRepository
     {
-        Task<CuerpoCeleste?> BuscarEnBaseDatosPorIdAsync(string id);
+        // Cache-Aside completo - método central
+        Task<CuerpoCeleste?> ObtenerCuerpoCelesteAsync(string id);
+
+        // Métodos individuales del Cache-Aside
+        CuerpoCeleste? BuscarEnMemoria(string id);
+        Task<CuerpoCeleste?> BuscarEnBaseDatosAsync(string id);
+        Task<CuerpoCeleste?> BuscarEnApiAsync(string id);
+
+        // Persistencia
         Task GuardarEnBaseDatosAsync(CuerpoCeleste cuerpo);
-        Task GuardarLoteEnBaseDatosAsync(List<CuerpoCeleste> cuerpos);
         void CargarEnMemoria(CuerpoCeleste cuerpo);
-        CuerpoCeleste? BuscarEnMemoriaPorId(string id);
-        List<CuerpoCeleste> ObtenerTodosEnMemoria();
+
+        // Historial en BD
+        Task RegistrarHistorialEnBdAsync(string cuerpoId, string tipoConsulta);
     }
 }

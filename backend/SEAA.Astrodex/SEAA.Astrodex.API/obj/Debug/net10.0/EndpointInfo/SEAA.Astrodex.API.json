@@ -5,18 +5,6 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/CuerposCelestes/cargar": {
-      "post": {
-        "tags": [
-          "CuerposCelestes"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/CuerposCelestes/{id}": {
       "get": {
         "tags": [
@@ -39,118 +27,33 @@
         }
       }
     },
-    "/api/CuerposCelestes/memoria": {
+    "/api/CuerposCelestes/{id}/caracteristicas-fisicas": {
       "get": {
         "tags": [
           "CuerposCelestes"
         ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/CuerposCelestes/planetas": {
-      "get": {
-        "tags": [
-          "CuerposCelestes"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Planets": {
-      "get": {
-        "tags": [
-          "Planets"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/WeatherForecast": {
-      "get": {
-        "tags": [
-          "WeatherForecast"
-        ],
-        "operationId": "GetWeatherForecast",
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/WeatherForecast"
-                  }
-                }
-              }
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
         }
       }
     }
   },
-  "components": {
-    "schemas": {
-      "WeatherForecast": {
-        "type": "object",
-        "properties": {
-          "date": {
-            "type": "string",
-            "format": "date"
-          },
-          "temperatureC": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "temperatureF": {
-            "type": "integer",
-            "format": "int32",
-            "readOnly": true
-          },
-          "summary": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      }
-    }
-  },
+  "components": { },
   "tags": [
     {
       "name": "CuerposCelestes"
-    },
-    {
-      "name": "Planets"
-    },
-    {
-      "name": "WeatherForecast"
     }
   ]
 }

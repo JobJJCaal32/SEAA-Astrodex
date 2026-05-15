@@ -1,7 +1,7 @@
 [
   {
     "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
-    "Method": "GetPorId",
+    "Method": "ObtenerInformacion",
     "RelativePath": "api/CuerposCelestes/{id}",
     "HttpMethod": "GET",
     "IsController": true,
@@ -17,63 +17,18 @@
   },
   {
     "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
-    "Method": "CargarDesdApi",
-    "RelativePath": "api/CuerposCelestes/cargar",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
-    "Method": "GetEnMemoria",
-    "RelativePath": "api/CuerposCelestes/memoria",
+    "Method": "ObtenerCaracteristicasFisicas",
+    "RelativePath": "api/CuerposCelestes/{id}/caracteristicas-fisicas",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
-    "Method": "GetPlanetas",
-    "RelativePath": "api/CuerposCelestes/planetas",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SEAA.Astrodex.API.Controllers.PlanetsController",
-    "Method": "Get",
-    "RelativePath": "api/Planets",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "SEAA.Astrodex.API.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[SEAA.Astrodex.API.WeatherForecast, SEAA.Astrodex.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

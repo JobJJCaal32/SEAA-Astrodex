@@ -3,10 +3,20 @@ using SEAA.Astrodex.Core.Interfaces;
 using SEAA.Astrodex.Data.Context;
 using SEAA.Astrodex.Data.Repositories;
 using SEAA.Astrodex.Infrastructure.External;
+using SEAA.Astrodex.Infrastructure.Formatters;
+using SEAA.Astrodex.Infrastructure.Services;
+using SEAA.Astrodex.Infrastructure.Structures;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler =
+            System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+        options.JsonSerializerOptions.DefaultIgnoreCondition =
+            System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull;
+    });
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -27,7 +37,17 @@ builder.Services.AddDbContext<AstronomiaContext>(options =>
     )
 );
 
+// Estructuras de memoria como Singleton
+builder.Services.AddSingleton<MemoriaService>();
+builder.Services.AddSingleton<HistorialMemoriaService>();
+
+// Repository
 builder.Services.AddScoped<ICuerpoCelesteRepository, CuerpoCelesteRepository>();
+
+// Services
+builder.Services.AddScoped<ICuerpoCelesteService, CuerpoCelesteService>();
+builder.Services.AddScoped<ICaracteristicasFisicasFormatter,
+    CaracteristicasFisicasFormatter>();
 
 var app = builder.Build();
 

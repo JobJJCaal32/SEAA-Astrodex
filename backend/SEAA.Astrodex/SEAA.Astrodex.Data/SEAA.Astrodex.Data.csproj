@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SEAA.Astrodex.Core\SEAA.Astrodex.Core.csproj" />
+    <ProjectReference Include="..\SEAA.Astrodex.Infrastructure\SEAA.Astrodex.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
