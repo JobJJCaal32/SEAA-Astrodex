@@ -62,6 +62,29 @@ namespace SEAA.Astrodex.API.Controllers
             }
         }
 
+        // Operación 3: obtiene el sistema planetario completo
+        [HttpGet("{id}/sistema-planetario")]
+        public async Task<IActionResult> ObtenerSistemaPlanetario(string id)
+        {
+            try
+            {
+                var resultado = await _service.ObtenerSistemaPlanetarioAsync(id);
+
+                if (resultado == null)
+                    return NotFound($"No se encontró un planeta con id: {id}");
+
+                return Ok(resultado);
+            }
+            catch (HttpRequestException)
+            {
+                return StatusCode(503, "No se pudo conectar con la API externa.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error interno: {ex.Message}");
+            }
+        }
+
         // Operación 4: busca cuerpos por tipo con paginación
         [HttpGet("tipo/{tipo}")]
         public async Task<IActionResult> BuscarPorTipo(

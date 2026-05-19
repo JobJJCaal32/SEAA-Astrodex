@@ -49,6 +49,28 @@
         }
       }
     },
+    "/api/CuerposCelestes/{id}/sistema-planetario": {
+      "get": {
+        "tags": [
+          "CuerposCelestes"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/CuerposCelestes/tipo/{tipo}": {
       "get": {
         "tags": [
@@ -86,12 +108,53 @@
           }
         }
       }
+    },
+    "/api/Relaciones/{origen}/{destino}/{tipo}": {
+      "get": {
+        "tags": [
+          "Relaciones"
+        ],
+        "parameters": [
+          {
+            "name": "origen",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "destino",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "tipo",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": { },
   "tags": [
     {
       "name": "CuerposCelestes"
+    },
+    {
+      "name": "Relaciones"
     }
   ]
 }

@@ -9,7 +9,7 @@ namespace SEAA.Astrodex.Core.Entities
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string TipoRelacion { get; set; }  // ORBITAL | FISICA | DISTANCIA | TEMPORAL | FAMILIAR
+        public string TipoRelacion { get; set; }  // ORBITAL | FISICA | DISTANCIA | TEMPORAL | FAMILIAR | ALL
         public double ValorCalculado { get; set; }
         public string UnidadMedida { get; set; }
         public string Descripcion { get; set; }

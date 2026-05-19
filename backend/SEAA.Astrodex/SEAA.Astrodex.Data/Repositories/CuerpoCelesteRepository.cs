@@ -250,5 +250,29 @@ namespace SEAA.Astrodex.Data.Repositories
             await _context.CuerposCelestes.AddRangeAsync(nuevos);
             await _context.SaveChangesAsync();
         }
+
+        // Operación 3: trae todos los satélites de un planeta directamente de la API
+        // para garantizar datos completos. Guarda los nuevos en BD y memoria.
+        public async Task<List<CuerpoCeleste>> BuscarPorPlanetaPadreAsync(
+            string idPlaneta)
+        {
+            // Siempre va a la API para garantizar datos completos
+            var dtos = await _apiService.GetCuerposPorFiltroAsync(
+                "aroundPlanet", "eq", idPlaneta);
+
+            if (!dtos.Any())
+                return new List<CuerpoCeleste>();
+
+            var entidades = dtos.Select(CuerpoCelesteMapper.ToEntity).ToList();
+
+            // Guarda en BD los que aún no existen
+            await GuardarLoteEnBaseDatosAsync(entidades);
+
+            // Carga en memoria los que aún no están
+            foreach (var c in entidades)
+                _memoria.Agregar(c);
+
+            return entidades;
+        }
     }
 }

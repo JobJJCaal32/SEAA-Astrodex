@@ -20,7 +20,8 @@ namespace SEAA.Astrodex.Core.Interfaces
 
         // Historial
         Task RegistrarHistorialEnBdAsync(string cuerpoId, string tipoConsulta);
-
+        // Búsqueda por planeta padre (Operación 3)
+        Task<List<CuerpoCeleste>> BuscarPorPlanetaPadreAsync(string idPlaneta);
         // Operación 4
         Task<List<CuerpoCeleste>?> ObtenerPaginaCargadaAsync(
             string tipo, int pagina, int tamanio);

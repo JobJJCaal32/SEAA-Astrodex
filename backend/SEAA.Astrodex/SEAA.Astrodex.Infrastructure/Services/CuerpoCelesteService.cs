@@ -129,7 +129,7 @@ namespace SEAA.Astrodex.Infrastructure.Services
                     fuente = "api";
                 }
             }
-            // ← AQUÍ va el registro de historial (línea nueva)
+            // ← AQUÍ va el registro de historial
             await _repository.RegistrarHistorialEnBdAsync(
                 cuerpos.First().Id,
                 TiposConsulta.BUSQUEDA_POR_TIPO);
@@ -139,6 +139,39 @@ namespace SEAA.Astrodex.Infrastructure.Services
                 .ToList();
 
             return (respuesta, fuente);
+        }
+
+        // Operación 3: trae el planeta y todos los cuerpos que lo orbitan
+        public async Task<SistemaPlanetarioDto?> ObtenerSistemaPlanetarioAsync(
+            string idPlaneta)
+        {
+            // Obtiene el planeta central con Operación 1
+            var (planeta, fuente) = await ObtenerCuerpoConFuenteAsync(idPlaneta);
+
+            if (planeta == null)
+                return null;
+
+            // Solo permite si es un planeta
+            if (!planeta.EsPlaneta)
+                return null;
+
+            // Busca todos los satélites del planeta
+            var satelites = await _repository.BuscarPorPlanetaPadreAsync(planeta.Id);
+
+            // Registra en historial
+            _historial.Apilar(planeta);
+            await _repository.RegistrarHistorialEnBdAsync(
+                planeta.Id, TiposConsulta.SISTEMA_PLANETARIO);
+
+            return new SistemaPlanetarioDto
+            {
+                Fuente = fuente,
+                PlanetaCentral = CuerpoCelesteResponseMapper.ToResponseDto(planeta, fuente),
+                CantidadSatelites = satelites.Count,
+                Satelites = satelites
+                    .Select(s => CuerpoCelesteResponseMapper.ToResponseDto(s, fuente))
+                    .ToList()
+            };
         }
     }
 }

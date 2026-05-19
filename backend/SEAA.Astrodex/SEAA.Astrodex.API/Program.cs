@@ -5,6 +5,7 @@ using SEAA.Astrodex.Data.Repositories;
 using SEAA.Astrodex.Infrastructure.External;
 using SEAA.Astrodex.Infrastructure.Formatters;
 using SEAA.Astrodex.Infrastructure.Services;
+using SEAA.Astrodex.Infrastructure.Strategies;
 using SEAA.Astrodex.Infrastructure.Structures;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -47,8 +48,20 @@ builder.Services.AddScoped<ICuerpoCelesteRepository, CuerpoCelesteRepository>();
 
 // Services
 builder.Services.AddScoped<ICuerpoCelesteService, CuerpoCelesteService>();
-builder.Services.AddScoped<ICaracteristicasFisicasFormatter,
-    CaracteristicasFisicasFormatter>();
+builder.Services.AddScoped<ICaracteristicasFisicasFormatter, CaracteristicasFisicasFormatter>();
+
+// Repositorio de relaciones
+builder.Services.AddScoped<IRelacionRepository, RelacionRepository>();
+
+// Estrategias de relaciones (Strategy pattern)
+builder.Services.AddScoped<IEstrategiaRelacion, EstrategiaOrbital>();
+builder.Services.AddScoped<IEstrategiaRelacion, EstrategiaFisica>();
+builder.Services.AddScoped<IEstrategiaRelacion, EstrategiaDistancia>();
+builder.Services.AddScoped<IEstrategiaRelacion, EstrategiaTemporal>();
+builder.Services.AddScoped<IEstrategiaRelacion, EstrategiaFamiliar>();
+
+// Servicio de relaciones
+builder.Services.AddScoped<IRelacionService, RelacionService>();
 
 var app = builder.Build();
 

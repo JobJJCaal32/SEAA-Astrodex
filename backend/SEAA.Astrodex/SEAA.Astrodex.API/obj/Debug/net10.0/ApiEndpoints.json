@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
+    "Method": "ObtenerSistemaPlanetario",
+    "RelativePath": "api/CuerposCelestes/{id}/sistema-planetario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
     "Method": "BuscarPorTipo",
     "RelativePath": "api/CuerposCelestes/tipo/{tipo}",
     "HttpMethod": "GET",
@@ -53,6 +69,32 @@
         "Name": "tamanio",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.RelacionesController",
+    "Method": "AnalizarRelacion",
+    "RelativePath": "api/Relaciones/{origen}/{destino}/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "origen",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "destino",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

@@ -54,5 +54,15 @@ namespace SEAA.Astrodex.Infrastructure.Structures
             _tablaHash.Clear();
             _listaEnlazada.Clear();
         }
+
+        // Trae todos los cuerpos que orbitan a un planeta específico
+        public List<CuerpoCeleste> BuscarPorPlanetaPadre(string idPlaneta)
+        {
+            return _listaEnlazada
+                .Where(c => !string.IsNullOrEmpty(c.PlanetaPadreId) &&
+                            c.PlanetaPadreId.Equals(idPlaneta,
+                                StringComparison.OrdinalIgnoreCase))
+                .ToList();
+        }
     }
 }
