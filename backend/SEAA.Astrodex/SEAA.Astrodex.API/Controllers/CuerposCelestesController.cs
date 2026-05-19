@@ -61,5 +61,42 @@ namespace SEAA.Astrodex.API.Controllers
                 return StatusCode(500, $"Error interno: {ex.Message}");
             }
         }
+
+        // Operación 4: busca cuerpos por tipo con paginación
+        [HttpGet("tipo/{tipo}")]
+        public async Task<IActionResult> BuscarPorTipo(
+            string tipo,
+            [FromQuery] int pagina,
+            [FromQuery] int tamanio)
+        {
+            if (pagina < 1 || tamanio < 1)
+                return BadRequest("pagina y tamanio deben ser mayores a 0");
+
+            try
+            {
+                var (cuerpos, fuente) = await _service
+                    .BuscarPorTipoConFuenteAsync(tipo, pagina, tamanio);
+
+                if (cuerpos == null || !cuerpos.Any())
+                    return NotFound($"Página no encontrada para el tipo: {tipo}");
+
+                return Ok(new
+                {
+                    fuente,
+                    tipo,
+                    pagina,
+                    tamanio,
+                    cuerpos
+                });
+            }
+            catch (HttpRequestException)
+            {
+                return StatusCode(503, "No se pudo conectar con la API externa.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Error interno: {ex.Message}");
+            }
+        }
     }
 }

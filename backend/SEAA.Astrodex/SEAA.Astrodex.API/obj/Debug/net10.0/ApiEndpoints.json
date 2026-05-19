@@ -30,5 +30,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SEAA.Astrodex.API.Controllers.CuerposCelestesController",
+    "Method": "BuscarPorTipo",
+    "RelativePath": "api/CuerposCelestes/tipo/{tipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipo",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "tamanio",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -1,8 +1,5 @@
-﻿using SEAA.Astrodex.Core.Entities;
-using System;
-using System.Collections.Generic;
-using System.Reflection.Emit;
-using System.Text;
+﻿// Data/Context/AstronomiaContext.cs
+using SEAA.Astrodex.Core.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace SEAA.Astrodex.Data.Context
@@ -16,15 +13,13 @@ namespace SEAA.Astrodex.Data.Context
         public DbSet<LunaRef> LunasRef { get; set; }
         public DbSet<RelacionCeleste> RelacionesCelestes { get; set; }
         public DbSet<HistorialConsulta> HistorialConsultas { get; set; }
+        public DbSet<PaginaCargada> PaginasCargadas { get; set; }
+        public DbSet<PaginaCargadaCuerpo> PaginasCargadasCuerpos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            // Solo lo que las anotaciones no pueden definir
-            // que es el comportamiento de eliminacion en cascada
-
-            // Auto-referencia CuerpoCeleste
             modelBuilder.Entity<CuerpoCeleste>()
                 .HasOne(c => c.PlanetaPadre)
                 .WithMany(c => c.Lunas)
@@ -32,18 +27,33 @@ namespace SEAA.Astrodex.Data.Context
                 .IsRequired(false)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // RelacionCeleste origen
             modelBuilder.Entity<RelacionCeleste>()
                 .HasOne(r => r.CuerpoOrigen)
                 .WithMany(c => c.RelacionesOrigen)
                 .HasForeignKey(r => r.CuerpoOrigenId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            // RelacionCeleste destino
             modelBuilder.Entity<RelacionCeleste>()
                 .HasOne(r => r.CuerpoDestino)
                 .WithMany(c => c.RelacionesDestino)
                 .HasForeignKey(r => r.CuerpoDestinoId)
+                .OnDelete(DeleteBehavior.Restrict);
+            // Llave primaria compuesta para tabla intermedia
+            modelBuilder.Entity<PaginaCargadaCuerpo>()
+                .HasKey(pcc => new { pcc.PaginaCargadaId, pcc.CuerpoCelesteId });
+
+            // Relación PaginaCargadaCuerpo → PaginaCargada
+            modelBuilder.Entity<PaginaCargadaCuerpo>()
+                .HasOne(pcc => pcc.PaginaCargada)
+                .WithMany(pc => pc.Cuerpos)
+                .HasForeignKey(pcc => pcc.PaginaCargadaId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            // Relación PaginaCargadaCuerpo → CuerpoCeleste
+            modelBuilder.Entity<PaginaCargadaCuerpo>()
+                .HasOne(pcc => pcc.CuerpoCeleste)
+                .WithMany()
+                .HasForeignKey(pcc => pcc.CuerpoCelesteId)
                 .OnDelete(DeleteBehavior.Restrict);
         }
     }

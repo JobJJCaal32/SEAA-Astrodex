@@ -13,15 +13,18 @@ namespace SEAA.Astrodex.Infrastructure.Services
         private readonly ICuerpoCelesteRepository _repository;
         private readonly HistorialMemoriaService _historial;
         private readonly ICaracteristicasFisicasFormatter _formatter;
+        private readonly CachePaginas _cachePaginas;
 
         public CuerpoCelesteService(
             ICuerpoCelesteRepository repository,
             HistorialMemoriaService historial,
-            ICaracteristicasFisicasFormatter formatter)
+            ICaracteristicasFisicasFormatter formatter,
+            CachePaginas cachePaginas)
         {
             _repository = repository;
             _historial = historial;
             _formatter = formatter;
+            _cachePaginas = cachePaginas;
         }
 
         // Método privado reutilizable
@@ -76,6 +79,62 @@ namespace SEAA.Astrodex.Infrastructure.Services
             resultado.Fuente = fuente;
 
             return resultado;
+        }
+        // Operación 4: busca cuerpos por tipo con paginación
+        // Niveles: caché en memoria → BD con tabla intermedia → API
+        public async Task<(List<CuerpoCelesteResponseDto>? cuerpos, string fuente)>
+            BuscarPorTipoConFuenteAsync(string tipo, int pagina, int tamanio)
+        {
+            if (string.IsNullOrWhiteSpace(tipo) || pagina < 1 || tamanio < 1)
+                return (null, "");
+
+            string fuente;
+            List<CuerpoCeleste> cuerpos;
+
+            // Nivel 3: caché en memoria
+            var clave = CachePaginas.GenerarClave(tipo, pagina, tamanio);
+            var enCache = _cachePaginas.Obtener(clave);
+
+            if (enCache != null)
+            {
+                cuerpos = enCache;
+                fuente = "memoria";
+            }
+            else
+            {
+                // Nivel 2: BD con tabla intermedia
+                var enBd = await _repository.ObtenerPaginaCargadaAsync(tipo, pagina, tamanio);
+
+                if (enBd != null && enBd.Any())
+                {
+                    cuerpos = enBd;
+                    fuente = "base de datos";
+                    _cachePaginas.Agregar(clave, cuerpos);
+                }
+                else
+                {
+                    // Nivel 1: API externa
+                    cuerpos = await _repository.BuscarPaginaEnApiAsync(tipo, pagina, tamanio);
+
+                    if (!cuerpos.Any())
+                        return (null, "");
+
+                    await _repository.GuardarLoteEnBaseDatosAsync(cuerpos);
+                    await _repository.RegistrarPaginaCargadaAsync(tipo, pagina, tamanio, cuerpos);
+
+                    foreach (var c in cuerpos)
+                        _repository.CargarEnMemoria(c);
+
+                    _cachePaginas.Agregar(clave, cuerpos);
+                    fuente = "api";
+                }
+            }
+
+            var respuesta = cuerpos
+                .Select(c => CuerpoCelesteResponseMapper.ToResponseDto(c, fuente))
+                .ToList();
+
+            return (respuesta, fuente);
         }
     }
 }

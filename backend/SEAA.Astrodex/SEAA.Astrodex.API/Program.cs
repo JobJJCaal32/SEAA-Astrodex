@@ -40,6 +40,7 @@ builder.Services.AddDbContext<AstronomiaContext>(options =>
 // Estructuras de memoria como Singleton
 builder.Services.AddSingleton<MemoriaService>();
 builder.Services.AddSingleton<HistorialMemoriaService>();
+builder.Services.AddSingleton<CachePaginas>();
 
 // Repository
 builder.Services.AddScoped<ICuerpoCelesteRepository, CuerpoCelesteRepository>();

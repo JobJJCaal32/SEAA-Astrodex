@@ -54,24 +54,33 @@ namespace SEAA.Astrodex.Infrastructure.External
             return JsonSerializer.Deserialize<CuerpoCelesteDto>(json, _jsonOptions);
         }
 
-        // Trae cuerpos por filtro usando los parametros de la API
-        // campo  → englishName, bodyType, etc
-        // operador → eq, cs, sw
-        // valor  → el valor a buscar
+        // Trae cuerpos por filtro con orden y paginación opcionales
+        // campo, operador, valor → filtro de la API
+        // orden     → ejemplo: "englishName,asc"
+        // pagina    → número de página
+        // tamanio   → tamaño de página
         public async Task<List<CuerpoCelesteDto>> GetCuerposPorFiltroAsync(
-            string campo, string operador, string valor)
+            string campo, string operador, string valor,
+            string? orden = null, int? pagina = null, int? tamanio = null)
         {
             var url = $"rest/bodies/?filter[]={campo},{operador},{valor}";
 
+            if (!string.IsNullOrEmpty(orden))
+                url += $"&order={orden}";
+
+            if (pagina.HasValue && tamanio.HasValue)
+                url += $"&page={pagina},{tamanio}";
+
             var response = await _httpClient.GetAsync(url);
 
-            response.EnsureSuccessStatusCode();
+            if (!response.IsSuccessStatusCode)
+                return new List<CuerpoCelesteDto>();
 
             var json = await response.Content.ReadAsStringAsync();
-
             var result = JsonSerializer.Deserialize<ApiResponseDto>(json, _jsonOptions);
 
             return result?.bodies ?? new List<CuerpoCelesteDto>();
         }
+
     }
 }
