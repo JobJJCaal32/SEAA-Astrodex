@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|c:\\users\\jjjjp\\source\\repos\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.data\\repositories\\cuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{739684A0-85DB-8E5B-85FF-638C0BDC7F6F}|SEAA.Astrodex.Data\\SEAA.Astrodex.Data.csproj|solutionrelative:seaa.astrodex.data\\repositories\\cuerpocelesterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|c:\\users\\jjjjp\\source\\repos\\seaa-astrodex\\backend\\seaa.astrodex\\seaa.astrodex.infrastructure\\services\\cuerpocelesteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D6A30EE-0067-4BE9-B767-60737E4B5CF8}|SEAA.Astrodex.Infrastructure\\SEAA.Astrodex.Infrastructure.csproj|solutionrelative:seaa.astrodex.infrastructure\\services\\cuerpocelesteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -51,19 +55,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CuerpoCelesteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "RelativeDocumentMoniker": "SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "ToolTip": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "RelativeToolTip": "SEAA.Astrodex.Data\\Repositories\\CuerpoCelesteRepository.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAuwPsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T08:24:08.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CuerpoCelesteService.cs",
               "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
               "RelativeDocumentMoniker": "SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
               "ToolTip": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
               "RelativeToolTip": "SEAA.Astrodex.Infrastructure\\Services\\CuerpoCelesteService.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAgwIYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-19T02:32:54.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SolarSystemApiService.cs",
               "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
               "RelativeDocumentMoniker": "SEAA.Astrodex.Infrastructure\\External\\SolarSystemApiService.cs",
@@ -76,7 +93,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CuerposCelestesController.cs",
               "DocumentMoniker": "C:\\Users\\jjjjp\\source\\repos\\SEAA-Astrodex\\backend\\SEAA.Astrodex\\SEAA.Astrodex.API\\Controllers\\CuerposCelestesController.cs",
               "RelativeDocumentMoniker": "SEAA.Astrodex.API\\Controllers\\CuerposCelestesController.cs",

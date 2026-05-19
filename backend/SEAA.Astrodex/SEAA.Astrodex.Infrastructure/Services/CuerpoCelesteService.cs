@@ -129,6 +129,10 @@ namespace SEAA.Astrodex.Infrastructure.Services
                     fuente = "api";
                 }
             }
+            // ← AQUÍ va el registro de historial (línea nueva)
+            await _repository.RegistrarHistorialEnBdAsync(
+                cuerpos.First().Id,
+                TiposConsulta.BUSQUEDA_POR_TIPO);
 
             var respuesta = cuerpos
                 .Select(c => CuerpoCelesteResponseMapper.ToResponseDto(c, fuente))

@@ -196,7 +196,9 @@ namespace SEAA.Astrodex.Data.Repositories
             await _context.SaveChangesAsync();
         }
 
-        // Guarda en lote sin duplicar los que ya existen
+        // Guarda en lote sin duplicar y valida que los padres existan
+        // Si un cuerpo tiene PlanetaPadreId pero el padre no existe en BD,
+        // se guarda con PlanetaPadreId = null para no violar la FK
         public async Task GuardarLoteEnBaseDatosAsync(List<CuerpoCeleste> cuerpos)
         {
             if (!cuerpos.Any())
@@ -213,14 +215,40 @@ namespace SEAA.Astrodex.Data.Repositories
                 .Where(c => !idsExistentes.Contains(c.Id))
                 .ToList();
 
-            if (nuevos.Any())
-            {
-                foreach (var c in nuevos)
-                    c.FechaCarga = DateTime.Now;
+            if (!nuevos.Any())
+                return;
 
-                await _context.CuerposCelestes.AddRangeAsync(nuevos);
-                await _context.SaveChangesAsync();
+            // Recolecta todos los PlanetaPadreId no nulos
+            var idsPadres = nuevos
+                .Where(c => !string.IsNullOrEmpty(c.PlanetaPadreId))
+                .Select(c => c.PlanetaPadreId!)
+                .Distinct()
+                .ToList();
+
+            // Verifica cuáles padres existen en BD (incluye los del mismo lote)
+            var padresExistentesEnBd = await _context.CuerposCelestes
+                .Where(c => idsPadres.Contains(c.Id))
+                .Select(c => c.Id)
+                .ToListAsync();
+
+            var idsLote = nuevos.Select(c => c.Id).ToHashSet();
+            var padresValidos = new HashSet<string>(padresExistentesEnBd);
+            padresValidos.UnionWith(idsLote);
+
+            // Limpia PlanetaPadreId si el padre no existe
+            foreach (var c in nuevos)
+            {
+                if (!string.IsNullOrEmpty(c.PlanetaPadreId) &&
+                    !padresValidos.Contains(c.PlanetaPadreId))
+                {
+                    c.PlanetaPadreId = null;
+                }
+
+                c.FechaCarga = DateTime.Now;
             }
+
+            await _context.CuerposCelestes.AddRangeAsync(nuevos);
+            await _context.SaveChangesAsync();
         }
     }
 }
